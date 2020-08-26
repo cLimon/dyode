@@ -1,0 +1,124 @@
+.carousel-products-section {
+  padding-bottom: 16px;
+
+  @media only screen and (min-width: 768px) {
+    padding-bottom: 40px;
+  }
+}
+.carousel-products-heading {
+  text-align: center;
+  font-family: $font-stack-pacifico;
+  font-size: 20px;
+  margin: 8px 0;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 35px;
+    margin: 20px 0;
+  }
+}
+
+.carousel-products {
+  width: 75%;
+  margin: auto;
+}
+
+.carousel-product {
+
+ width: 150px;
+
+   @media only screen and (min-width: 768px) {
+     width: 267px;
+   }
+}
+
+.carousel-product-image {
+  max-width: 100%;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 25px;
+  }
+}
+
+.carousel-product-title {
+  font-family: $font-stack-lato;
+  font-size: 16px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.carousel-product-type {
+  font-family: $font-stack-lato;
+  font-size: 12px;
+  font-weight: 300;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.carousel-product-price {
+  color: $color-seaweed;
+  font-family: $font-stack-pacifico;
+  font-size: 16px;
+
+  @media only screen and (min-width: 768px) {
+    margin-bottom: 8px;
+    font-size: 22px;
+  }
+}
+
+.carousel-product-image,
+.carousel-product-title,
+.carousel-product-type,
+.carousel-product-price {
+  display: block;
+  text-align: center;
+}
+
+
+.carousel-products {
+  // FLICKITY
+  .flickity-prev-next-button .flickity-button-icon {
+    display: none;
+  }
+
+  .flickity-prev-next-button.next {
+    background-image: url('../images/Arrow Right.png');
+  }
+
+  .flickity-prev-next-button.previous {
+    left: -10%;
+  }
+
+  .flickity-prev-next-button.next {
+    right: -10%;
+  }
+
+  .flickity-prev-next-button {
+    background-image: url('../images/Arrow Left.png');
+
+  }
+
+  .flickity-prev-next-button {
+    height: 15px;
+    width: 13px;
+
+    border-radius: 0;
+    background-size: contain;
+        background-repeat: no-repeat;
+        background-color: transparent;
+
+
+    @media only screen and (min-width: 768px) {
+      height: 23px;
+      width: 26px;
+    }
+  }
+
+  .flickity-button:disabled {
+    opacity: 1;
+  }
+}
+

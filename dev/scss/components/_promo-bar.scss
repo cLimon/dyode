@@ -1,0 +1,17 @@
+/*  PROMO BAR */
+.promo-bar {
+  background-color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+.promo-bar-message {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Helvetica;
+  text-transform: uppercase;
+
+  @media only screen and (min-width: 768px + 1px) {
+    font-size: 26px;
+  }
+}

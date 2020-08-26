@@ -1,0 +1,77 @@
+// COLLECTINS GRID
+#collection-grid {
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px 15px;
+
+
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      @media only screen and (min-width: 768px) {
+        padding: 30px 25px;
+      }
+  }
+
+  li {
+      margin-bottom: 15px;
+      position: relative;
+
+      width: 47%;
+      width: 47.826086956521739%;
+
+
+      &:last-child {
+        width: 100%;
+
+        @media only screen and (min-width: 768px) {
+          width: 31.294964028776978%;
+        }
+      }
+
+      @media only screen and (min-width: 768px) {
+        width: 31.294964028776978%;
+      }
+  }
+
+  a {
+    display: block;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  span {
+    color: #ffffff;
+    background-color: #10504F;
+    font-size: 19px;
+    font-size: 1.188rem;
+    font-family: 'Pacifico', serif;
+    text-align: center;
+    height: 42px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    @media only screen and (min-width: 768px + 1px) {
+      // font-size: 50px;
+      font-size: 3.125rem;
+      height: 19.4%;
+    }
+  }
+}
+
+
+
+

@@ -1,0 +1,43 @@
+.instagram-feed {
+  margin: 30px 0;
+
+  @media only screen and (min-width: 768px) {
+    margin: 60px 0;
+  }
+}
+
+.instagram-feed-title {
+  font-size: 20px;
+  font-family: $font-stack-pacifico;
+  text-align: center;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 35px;
+  }
+}
+
+.instagram-feed-photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  overflow: scroll;
+  width: 91.2%;
+
+  @media only screen and (min-width: 768px) {
+    overflow: auto;
+    width: 91.6%; // 1320/1440
+  }
+}
+
+.instagram-feed-photo {
+  margin-right: 10px;
+  width: 31.57%;
+
+  @media only screen and (min-width: 768px) {
+    margin-right: 0;
+    // width: 248px;
+    width: 18.78%;
+  }
+}
