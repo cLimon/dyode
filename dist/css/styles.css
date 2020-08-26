@@ -42,6 +42,7 @@ html {
   margin: auto; }
 
 .carousel-product {
+  margin: 0 10px;
   width: 150px; }
   @media only screen and (min-width: 768px) {
     .carousel-product {
@@ -312,14 +313,14 @@ html {
 
 .store-header-nav-list {
   display: none;
-  list-style: none; }
+  list-style: none;
+  margin: 0;
+  padding: 0; }
   .store-header-nav-list.is-active {
     background-color: #ffffff;
     color: #10504F;
     display: block;
     left: 0;
-    margin: 0;
-    padding: 0;
     position: absolute;
     top: 100%;
     width: 100%;
@@ -467,6 +468,9 @@ html {
   text-decoration: none;
   top: 0;
   width: 100%; }
+  @media only screen and (min-width: 768px) {
+    .hero-carousel-item-overlay {
+      padding: 0 5.55%; } }
 
 .hero-carousel-item-title {
   font-family: "Pacifico", sans-serif;
